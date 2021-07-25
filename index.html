@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./all.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <a href="" class="logo">Soru<span>.</span></a>
+      <div class="menutoggle" onclick="toggleMenu()"></div>
+      <ul class="navigation">
+        <li>
+          <a href="#banner">Home</a>
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <section class="banner" id="banner">
+      <div class="content">
+        <h2>Always Choose Good</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed
+          dapibus nibh. Vivamus finibus, felis in blandit iaculis, odio elit
+          mattis mauris, rutrum ultricies urna lacus et urna. Interdum et
+          malesuada fames ac ante ipsum primis in faucibus.
+        </p>
+        <a href="#menu" class="btn">Menu</a>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="row">
+        <div class="col50">
+          <h2><span>A</span>bout Us</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+            rerum id voluptates. Impedit, non! Fugit modi error, in
+            exercitationem commodi ullam a vel harum molestias porro accusantium
+            vero incidunt ea! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Deleniti, quod totam! Veritatis aperiam deserunt possimus
+            officia. Optio natus ut, minus dolores incidunt reiciendis quo dolor
+            rem dolorum veritatis alias placeat. <br /><br />
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+            rerum id voluptates. Impedit, non! Fugit modi error, in
+            exercitationem commodi ullam a vel harum molestias porro accusantium
+            vero incidunt ea! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Deleniti, quod totam! Veritatis aperiam deserunt possimus
+            officia. Optio natus ut, minus dolores incidunt reiciendis quo dolor
+            rem dolorum veritatis alias placeat. Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Autem rerum id voluptates. Impedit,
+            non! Fugit modi error, in exercitationem commodi ullam a vel harum
+            molestias porro accusantium vero incidunt ea! Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Deleniti, quod totam! Veritatis
+            aperiam deserunt possimus officia. Optio natus ut, minus dolores
+            incidunt reiciendis quo dolor rem dolorum veritatis alias placeat.
+            <br /><br />
+          </p>
+        </div>
+        <div class="col50">
+          <div class="imgbox">
+            <img
+              width="800px"
+              src="./assets/images/1030_teen_brain_food_choices-1030x580.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu" id="menu">
+      <div class="title">
+        <h2><span>M</span>enu</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+          incidunt recusandae sapiente iusto fugiat ducimus nesciunt esse alias
+          corporis culpa. Laborum id possimus omnis eveniet esse enim eos ipsam
+          adipisci.<br /><br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum deserunt,
+          temporibus, qui, et quibusdam a dolor voluptatem omnis earum vitae
+          sint iste pariatur. Accusamus inventore sed nulla minima rem vero?
+        </p>
+      </div>
+      <div class="content">
+        <div class="box">
+          <div class="imgbox">
+            <img
+              height="250px"
+              src="./assets/images/lidye-1Shk_PkNkNw-unsplash.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text">
+            <h3 style="margin-top: 20px">Hot Burger</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgbox">
+            <img
+              height="250px"
+              src="./assets/images/eaters-collective-12eHC6FxPyg-unsplash.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text">
+            <h3 style="margin-top: 20px">Special Pasta</h3>
+          </div>
+          </div>
+          <div class="box">
+          <div class="imgbox">
+            <img
+              height="250px"
+              src="./assets/images/chad-montano-eeqbbemH9-c-unsplash.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text">
+            <h3 style="margin-top: 20px">Banana Pan</h3>
+          </div>
+          </div>
+          <div class="box">
+          <div class="imgbox">
+            <img
+              height="250px"
+              src="./assets/images/chad-montano-MqT0asuoIcU-unsplash.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text">
+            <h3 style="margin-top: 20px">Tangy Pizza</h3>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 style="color:rgb(0, 0, 0); font-size:3em">Contact <span style="font-size:3rem">US</span></h2> 
+        </div>
+        <div class="formcontact">
+            <h3 class="h3">Send Message</h3>
+            <div class="inputform">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inputform">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputform">
+                <textarea placeholder="Enter Message to Send"></textarea>
+            </div>
+            <div class="inputform">
+                <input id="send-btn" type="submit" value="Send">
+            </div>
+        </div>
+    </section>
+    <footer>
+     <!-- <a href=""><img class="insta"src="./assets/images/instagram-brands.svg"></img></a>   -->
+      <p class="meshachDev">Developed by MeshachDev <br> Powered by SofTBox</p>
+      <!-- <p style="color: red;">This Page is under Developement!</p> -->
+    </footer>
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+        console.log("object");
+      });
+
+      function toggleMenu() {
+        const menutoggle = document.querySelector(".menutoggle");
+        const navigation = document.querySelector(".navigation");
+        menutoggle.classList.toggle('active')
+        navigation.classList.toggle('active')
+      }
+    </script>
+  </body>
+</html>
