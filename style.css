@@ -365,7 +365,10 @@ footer {
     header .navigation {
         display: none;
     }
-
+header .navigation li{
+    margin-left:-30px;
+    margin-bottom:10px;
+    }
     .formcontact {
         padding: 10px 10px;
     }
