@@ -4,9 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Soru saapadu</title>
+    <title>Soru.</title>
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./all.min.css">
   </head>
   <body>
     <header class="header">
@@ -23,12 +22,18 @@
     </header>
     <section class="banner" id="banner">
       <div class="content">
-        <h2>Always Choose Good</h2>
+        <h2>Live, love, Eat.
+          <br>
+         <h2 style="color: #000">Soru Than Mukkiyam</h2>
+        </h2>
+      
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed
           dapibus nibh. Vivamus finibus, felis in blandit iaculis, odio elit
           mattis mauris, rutrum ultricies urna lacus et urna. Interdum et
           malesuada fames ac ante ipsum primis in faucibus.
+          blah blah blah blah blah blah blah blah blah blah
+           blah blah blah blah blah blah blah blah blah....
         </p>
         <a href="#menu" class="btn">Menu</a>
       </div>
@@ -58,12 +63,13 @@
             amet consectetur adipisicing elit. Deleniti, quod totam! Veritatis
             aperiam deserunt possimus officia. Optio natus ut, minus dolores
             incidunt reiciendis quo dolor rem dolorum veritatis alias placeat.
+            blah blah blah blah blah blah blah blah blah blah blah blah blah 
             <br /><br />
           </p>
         </div>
         <div class="col50">
           <div class="imgbox">
-            <img
+            <img class="custom"
               width="800px"
               src="./assets/images/1030_teen_brain_food_choices-1030x580.jpg"
               alt=""
@@ -83,6 +89,8 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum deserunt,
           temporibus, qui, et quibusdam a dolor voluptatem omnis earum vitae
           sint iste pariatur. Accusamus inventore sed nulla minima rem vero?
+          blah blah blah blah blah blah blah blah blah blah
+           blah blah blah blah blah blah blah blah blah....
         </p>
       </div>
       <div class="content">
@@ -134,7 +142,7 @@
             <h3 style="margin-top: 20px">Tangy Pizza</h3>
           </div>
         </div>
-        </div>
+        </div> 
       </div>
     </section>
     <section class="contact" id="contact">
@@ -144,10 +152,10 @@
         <div class="formcontact">
             <h3 class="h3">Send Message</h3>
             <div class="inputform">
-                <input type="text" placeholder="Name">
+                <input id="name" type="text" placeholder="Name">
             </div>
             <div class="inputform">
-                <input type="email" placeholder="Email">
+                <input id="email" type="email" placeholder="Email">
             </div>
             <div class="inputform">
                 <textarea placeholder="Enter Message to Send"></textarea>
@@ -157,10 +165,9 @@
             </div>
         </div>
     </section>
-    <footer>
-     <!-- <a href=""><img class="insta"src="./assets/images/instagram-brands.svg"></img></a>   -->
+    <footer>  
+      <a class="insta" href="https://www.instagram.com/meshach_developer/" target="_blank"><img height="30px" width="30px"src="./assets/images/instagram-brands.svg" alt=""></a>
       <p class="meshachDev">Developed by MeshachDev <br> Powered by SofTBox</p>
-      <!-- <p style="color: red;">This Page is under Developement!</p> -->
     </footer>
     <script type="text/javascript">
       window.addEventListener("scroll", function () {
@@ -175,6 +182,10 @@
         menutoggle.classList.toggle('active')
         navigation.classList.toggle('active')
       }
+
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      
     </script>
   </body>
 </html>
