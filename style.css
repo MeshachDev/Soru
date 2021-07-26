@@ -145,7 +145,7 @@ header .navigation li a {
     text-decoration: none;
     color: #ffffff;
     font-weight: 300;
-    margin-left: 30px;
+
     font-size: 1.5em;
     transition: 0.5s;
     padding: 2px 8px;
@@ -332,7 +332,9 @@ header.sticky,header {
 header .navigation {
     display: none;
 }
-
+header .navigation li a{
+    margin-left: 0px;
+}
 .formcontact{
     padding: 10px 10px;
 }
