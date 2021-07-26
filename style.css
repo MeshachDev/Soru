@@ -99,6 +99,7 @@ header.sticky:hover {
 
 a {
     text-decoration: none;
+    margin:10px;
 }
 
 span {
